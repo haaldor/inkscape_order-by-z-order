@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+	<name>Distribute by z-order</name>
+	<id>com.haaldor.distribute_by_z_order</id>
+	<effect>
+		<object-type>all</object-type>
+		<effects-menu>
+			<submenu name="Arrange" />
+		</effects-menu>
+    <menu-tip>Distribute selected elements in z-order, stacking them one next to another to the right. Minimalistic effect to be used with other "Align and Distribute" functions.</menu-tip>
+	</effect>
+	<script>
+		<command location="inx" interpreter="python">distribute_by_z_order.py</command>
+	</script>
+</inkscape-extension>
